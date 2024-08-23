@@ -91,6 +91,7 @@ public:
         }
         cur->next = dummyNode;
         dummyNode->back = cur;
+
         dummyNode->next = NULL;
     }
 private :
